@@ -14,7 +14,7 @@ import models.Employee;
  * @従業員データのDTOモデル⇔モデルの変換を行うクラス
  *
  */
-public class employeeConverter {
+public class EmployeeConverter {
 
 
 /**
