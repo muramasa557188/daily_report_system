@@ -233,10 +233,10 @@ public class EmployeeAction extends ActionBase {
      * @throws IOException
      */
     public void destroy() throws ServletException, IOException{
-        System.out.println("ok");
+        System.out.println("ok");  //デバック用
         //CSRF対策tokenのチェック
         if(checkToken()) {
-        System.out.println("ok2");
+        System.out.println("ok2");  //デバック用
             //idを条件に従業員データを論理削除する
             service.destroy(toNumber(getRequestParam(AttributeConst.EMP_ID)));
 
